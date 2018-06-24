@@ -1,0 +1,15 @@
+.hero {
+    min-height: 100vh;
+    background: url('./images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: white;
+        font-size: 200px;
+    }
+}
