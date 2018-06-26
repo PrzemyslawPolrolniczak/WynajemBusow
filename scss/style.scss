@@ -2,6 +2,23 @@
 @import 'variables';
 @import 'header';
 @import 'hero';
+@import 'footer';
+
+// Header and footer menu
+ul {
+    padding: 0;
+    margin: 0 50px;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    li {
+        height: 100%;
+        //margin: 0px 10px;
+        &:first-of-type {
+            margin-right: auto;
+        }
+    }
+}
 
 .test {
     height: 1500px;
