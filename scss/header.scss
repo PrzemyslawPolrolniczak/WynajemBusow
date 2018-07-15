@@ -7,21 +7,75 @@ menu {
     right: 0;
     transition: all 0.5s;
     z-index: 10;
+    //height: 60px;
     &.scrolled {
         background-color: rgba(22, 22, 22, 0.5);
+        background-color: rgba(222, 184, 135, 1);
+        a {
+            &:hover {
+                background-color: #222;
+                color: #fff;
+            }
+        }
     }
     a {
         font-weight: 700;
         color: white;
         display: inline-block;
-        padding: 25px 10px;
+        padding: 18px 10px;
         transition: all 0.3s;
         min-width: 100px;
         text-align: center;
         &:hover {
-            background-color: $black;
+            background-color: burlywood;
             color: white;
             text-decoration: none !important;
         }
     }
 }
+
+
+// menu {
+//     margin: 0;
+//     padding: 0;
+//     position: fixed;
+//     right: 0;
+//     top: 0;
+//     bottom: 0;
+//     transition: all 0.5s;
+//     z-index: 10;
+//     &.scrolled {
+//         background-color: rgba(22, 22, 22, 0.5);
+//     }
+//     a {
+//         background-color: burlywood;
+//         font-weight: 700;
+//         color: black;
+//         display: inline-block;
+//         padding: 25px 10px;
+//         transition: all 0.3s;
+//         min-width: 100px;
+//         height: 75px;
+//         text-align: center;
+//         &:hover {
+//             background-color: $black;
+//             color: #fff;
+//             text-decoration: none !important;
+//         }
+//     }
+//     ul {
+//         padding: 0;
+//         margin: 0;
+//         justify-content: flex-end;
+//         list-style-type: none;
+//         display: flex;
+//         flex-direction: column;
+//         li {
+//             height: 100%;
+//             //margin: 0px 10px;
+//             &:first-of-type {
+//                 margin-right: auto;
+//             }
+//         }
+//     }
+// }

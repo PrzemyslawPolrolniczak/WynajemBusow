@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wynajem busów</title>
+    <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
@@ -37,7 +38,6 @@
             </ul>
         </menu>
     </header>
-
 
 
 

@@ -3,6 +3,8 @@
 @import 'header';
 @import 'hero';
 @import 'footer';
+@import 'post';
+@import 'about-us';
 
 // Header and footer menu
 body {
@@ -10,6 +12,21 @@ body {
     //position: relative;
     font-family: 'Merriweather Sans', sans-serif;
 }
+
+// ul {
+//     padding: 0;
+//     margin: 0 50px;
+//     display: flex;
+//     justify-content: flex-end;
+//     list-style-type: none;
+//     li {
+//         height: 100%;
+//         //margin: 0px 10px;
+//         &:first-of-type {
+//             margin-right: auto;
+//         }
+//     }
+// }
 
 ul {
     padding: 0;
@@ -41,6 +58,9 @@ ul {
     z-index: -1;
 }
 
-.test {
-    height: 1500px;
+a {
+    color: inherit;
+    &:hover {
+        color: inherit;
+    }
 }

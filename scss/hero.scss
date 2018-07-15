@@ -1,16 +1,67 @@
-.hero {
-    min-height: 100vh;
-    background: url('./images/hero.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+// .hero {
+//     min-height: 100vh;
+//     background: url('./images/hero.jpg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: cover;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     h1 {
+//         color: white;
+//         font-size: 200px;
+//         background-color: rgba(0,0,0,0.5);
+//     }
+// }
+
+
+// ******************* WERSJA 1 z ramką 
+// ****
+.hero-section {
+    font-family: 'Pragati Narrow', sans-serif;
+    height: 300px;
+    background-color: #222;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    h1 {
-        color: white;
-        font-size: 200px;
-        background-color: rgba(0,0,0,0.5);
+    align-items: flex-end;
+    .dobodowka {
+        background-color: #fff;
+        color: #222;
+        height: 150px;
+        border: 1px solid #fff;
+        // flex-basis: 50%;
+        font-size: 32px;
+        text-align: center;
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        h1 {
+            margin: 0;
+        }
     }
 }
+
+// .hero-section {
+//     height: 300px;
+//     background-color: #222;
+//     display: flex;
+//     align-items: flex-end;
+//     .dobodowka {
+//         background-color: #222;
+//         color: #fff;
+//         height: 300px;
+//         border: 1px solid #fff;
+//         // flex-basis: 50%;
+//         font-size: 32px;
+//         text-align: center;
+//         border-bottom: none;
+//         border-top: none;
+//         h1 {
+//             margin-bottom: 5px;
+//         }
+//         img {
+//             max-height: 170px;
+//         }
+//     }
+// }
