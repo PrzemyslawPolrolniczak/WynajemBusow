@@ -5,6 +5,8 @@
 @import 'footer';
 @import 'post';
 @import 'about-us';
+@import 'buses';
+
 
 // Header and footer menu
 body {
@@ -27,6 +29,10 @@ body {
 //         }
 //     }
 // }
+
+#mapsource {
+    pointer-events: none;
+}
 
 ul {
     padding: 0;

@@ -1,0 +1,20 @@
+.buses-background {
+    background-color: #222;
+    color: white;
+    text-align: right;
+}
+
+.buses-section {
+    .dummy-img {
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+        height: 500px;
+    }
+    .dummy-text {
+        display: flex;
+        align-items: center;
+    }
+}
