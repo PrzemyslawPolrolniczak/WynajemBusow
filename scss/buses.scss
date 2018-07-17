@@ -1,5 +1,5 @@
 .buses-background {
-    background-color: #222;
+    background-color: $color-secondary;
     color: white;
     text-align: right;
 }
@@ -10,7 +10,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+        border: 1px solid $color-primary;
         height: 500px;
     }
     .dummy-text {

@@ -1,10 +1,8 @@
 .post-section-background {
-    box-shadow: 0px -5px 34px 27px rgba(255,255,255,1);
+    // box-shadow: 0px -5px 34px 27px rgba(255,255,255,1);
 }
 
 .posts-section {
-    // border: 1px solid #222;
-    padding: 0 100px;
     padding-top: 40px;
     .posts-title {
         display: flex;
@@ -23,11 +21,13 @@
             // cursor: pointer;
             height: 400px;
             &:hover {
+                border-top: 1px solid transparent;
+                border-bottom: 1px solid transparent;
                 box-shadow: 0px 0px 41px 1px rgba(100,100,100,0.50);
             }
             &.newest {
                 color: #fff;
-                background-image: repeating-radial-gradient(circle farthest-corner at -50% 48%, white 0.5%, #222 54.1%, #222 72.5%, #222 100%, #222 100%);
+                background-image: repeating-radial-gradient(circle farthest-corner at -50% 48%, white 0.5%, $color-secondary 54.1%, $color-secondary 72.5%, $color-secondary 100%, $color-secondary 100%);
                 &:hover {
                     box-shadow: 0px 0px 41px 1px rgba(00,00,00,0.75);
                 }

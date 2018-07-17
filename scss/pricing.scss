@@ -1,0 +1,8 @@
+.price {
+    text-align: center;
+    height: 400px;
+    &.altcolor {
+        background-color: $color-secondary;
+        color: white;
+    }
+}

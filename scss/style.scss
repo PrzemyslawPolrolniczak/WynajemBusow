@@ -6,6 +6,7 @@
 @import 'post';
 @import 'about-us';
 @import 'buses';
+@import 'pricing';
 
 
 // Header and footer menu
@@ -69,4 +70,19 @@ a {
     &:hover {
         color: inherit;
     }
+}
+
+.section-announce-text {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 47px;
+    line-height: 44px;
+    border-bottom: 3px solid $color-primary;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.annouce-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -4,13 +4,12 @@
 }
 .about-us-section {
     font-family: 'Pragati Narrow', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 300px;
 }
 .dummy-text {
     h1 {
-        font-size: 42px;
+        font-size: 47px;
+        line-height: 44px;
+        border-bottom: 3px solid $color-primary;
     }
 }

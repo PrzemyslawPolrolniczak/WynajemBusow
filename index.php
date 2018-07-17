@@ -25,7 +25,7 @@ get_header(); ?>
     </div>
     <div class="post-section-background">
         <div class="container posts-section">
-            <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
+            <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>4)); ?>
             
                 <?php if ( $wpb_all_query->have_posts() ) : $postCount = 0; ?>
                 <div class="posts-title"><h1>Aktualności</h1> <a href="">Zobacz wszystkie</a></div>
@@ -33,7 +33,7 @@ get_header(); ?>
                     <!-- the loop -->
                     <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); $postCount++; ?>
                         
-                            <div class="post <?php if ($postCount == 1) : echo 'newest'; endif ?> col-sm-4">
+                            <div class="post <?php if ($postCount == 1) : echo 'newest'; endif ?> col-sm-3">
                                 <span class="date"><?php echo get_the_date(); ?></span>
                                 <?php if ( has_post_thumbnail() ) { ?>
                                     <div class="text-center img-thumbnail">
@@ -55,15 +55,19 @@ get_header(); ?>
     </div>
     <div class="about-us-background">
         <div class="container about-us-section">
+                <div class="annouce-text-container">
+                    <h1 class="section-announce-text">TROCHĘ O NAS</h1>
+                </div>
                 <div class="dummy-text text-center">
-                    <h1>TROCHĘ O NAS</h1>
                     <p>Jesteśmy firmą z Oławy z dwuletnim stażem</p>
                 </div>
         </div>
     </div>
     <div class="buses-section">
         <div class="container">
-        <h1 class="text-center">Nasze busy</h1>
+        <div class="annouce-text-container">
+            <h1 class="section-announce-text">Nasze busy</h1>
+        </div>
             <div class="row">
                 <div class="dummy-img col-sm-6">
                     <h1>Bus #1</h1>
@@ -96,10 +100,23 @@ get_header(); ?>
             </div>
         </div>
     </div>
-    <div class="container pricing-section" style="height: 500px;">
-        <h1 class="text-center">Ceny</h1>
+    <div class="container pricing-section">
+        <div class="annouce-text-container">
+            <h1 class="section-announce-text">Ceny</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card price">Test</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card price altcolor">Test</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card price">Test</div>
+            </div>
+        </div>
     </div>
-    <div class="google-map" style="height: 500px;">
+    <div class="google-map" style="height: 500px; margin-top: 50px;">
         <iframe id="mapsource" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=17.292300760746006%2C50.94065843612187%2C17.295841276645664%2C50.94227078914687&amp;layer=mapnik&amp;marker=50.94146461962363%2C17.29407101869583" style="border: 1px solid black"></iframe>
     </div>
 </div>

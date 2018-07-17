@@ -9,11 +9,11 @@ menu {
     z-index: 10;
     //height: 60px;
     &.scrolled {
-        background-color: rgba(22, 22, 22, 0.5);
-        background-color: rgba(222, 184, 135, 1);
+        background-color: $color-secondary;
+        background-color: $color-accent;
         a {
             &:hover {
-                background-color: #222;
+                background-color: $color-secondary;
                 color: #fff;
             }
         }
@@ -27,7 +27,7 @@ menu {
         min-width: 100px;
         text-align: center;
         &:hover {
-            background-color: burlywood;
+            background-color: $color-accent;
             color: white;
             text-decoration: none !important;
         }
